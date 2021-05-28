@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@bmvantunes/please-dont-install-this-package-this-is-an-xss-on-purpose": "^18.0.0",
+    "@bmvantunes/please-dont-install-this-package-this-is-an-xss-on-purpose": "^19.0.0",
     "next": "10.2.3",
     "next-auth": "^3.24.0",
     "react": "17.0.2",
