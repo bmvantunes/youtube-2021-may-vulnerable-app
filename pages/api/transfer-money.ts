@@ -20,5 +20,5 @@ export default async function transferMoney(
 
 function saveTransferToDatabase(transfer) {
   // lets imagine we are saving to a database =D
-  console.log(JSON.stringify(transfer) + `-- $${transfer.amount} on its way to ${transfer.account} --`);
+  console.log(`-- $${transfer.amount} on its way to ${transfer.account} --`);
 }
