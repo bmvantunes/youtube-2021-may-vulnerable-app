@@ -15,7 +15,6 @@ export default function Page() {
       {session && (
         <>
           Hello, {session.user.name}!!!
-
           <TransferMoney session={session}/>
         </>
       )}
