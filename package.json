@@ -8,14 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "@bmvantunes/please-dont-install-this-package-this-is-an-xss-on-purpose": "^21.0.0",
+    "@bmvantunes/please-dont-install-this-package-this-is-an-xss-on-purpose": "^22.0.0",
     "next": "10.2.3",
-    "next-auth": "^3.24.0",
+    "next-auth": "^3.25.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/react": "^17.0.8",
+    "@types/react": "^17.0.9",
     "typescript": "^4.3.2"
   }
 }
