@@ -1,23 +1,15 @@
-import { signIn, signOut, useSession } from "next-auth/client";
-import {TransferMoney} from '../TransferMoney';
-
-export default function Page() {
-  const [session, loading] = useSession();
-
+export default function () {
   return (
     <>
-      {!session && (
-        <>
-          Not signed in. To transfer money you need to login:
-          <button onClick={() => signIn()}>Sign in</button>
-        </>
-      )}
-      {session && (
-        <>
-          Hello, {session.user.name}!!!
-          <TransferMoney session={session}/>
-        </>
-      )}
+      <div>
+        <Link href="/secure">Secure (Content Security Policy)</Link>
+      </div>
+      <div>
+        <Link href="/secure">Insecure</Link>
+      </div>
+      <div>
+        <Link href="/typical-xss-example">typical xss example</Link>
+      </div>
     </>
   );
 }
