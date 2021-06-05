@@ -2,7 +2,7 @@ module.exports = {
   async headers() {
     return [
       {
-        source: "/secure",
+        source: "/secure-header",
         headers: [
           {
             key: "Content-Security-Policy",
